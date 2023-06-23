@@ -2,7 +2,7 @@
 
 /**
  * insertion_sort_list - sorting using insertion sort
- * @list - double pointer to head of the list to sort
+ * @list: double pointer to head of the list to sort
  *
  * Return: nothing
  */
