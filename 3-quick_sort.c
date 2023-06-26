@@ -4,8 +4,6 @@
  * swap_element - swaps the elements
  * @a: to be swapped
  * @b: to be swapped
- * @array: to be print per swap
- * @size: size of the array
  *
  * Return: nothing
  */
@@ -22,6 +20,7 @@ void swap_element(int *a, int *b)
  * @array: array to be partitioned
  * @low: starting index
  * @high: ending index
+ * @size: size of array
  *
  * Return: pivot index
  */
@@ -55,6 +54,7 @@ int partitioning(int *array, int low, int high, size_t size)
  * @array: array to undergo recursion
  * @low: starting index
  * @high: ending index
+ * @size: size of array
  *
  * Return: nothing
  */
